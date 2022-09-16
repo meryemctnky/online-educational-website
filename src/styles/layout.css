@@ -2,3 +2,12 @@
     margin-top: 6.25rem;
     min-height: calc(100vh - 300px);
 }
+
+@media (max-width:991px){
+
+    .main {
+        padding-top: 9rem;
+    }
+
+
+}

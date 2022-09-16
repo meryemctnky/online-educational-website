@@ -7,7 +7,7 @@ const CourseCard = ({item}) => {
 
 
   return (
-    <Col md={3} sm={6} xs={6} className="my-3">
+    <Col md={3} sm={6} xs={6} className="my-3 p-2-sm">
       <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={item.courseImg} style={{height: '200px'}} />
       <Card.Body>

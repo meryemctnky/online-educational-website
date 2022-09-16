@@ -22,7 +22,7 @@ const AllCourses = () => {
       <h2>All Courses</h2>
       <Row className=''>
         { courses && courses.map((item, i) => (
-          <CourseCard key={i} item={item} />
+          <CourseCard key={i} item={item}/>
         ))}
       </Row>
     </Container>

@@ -75,9 +75,12 @@ function Header(props) {
             <div className="shopping-icon me-3 position-relative">
               <Link to="/cart">
                 <FontAwesomeIcon icon={faCartShopping} />{" "}
+               { cartList.length > 0 ?
                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill" style={{fontSize: '.5em', backgroundColor: '#ED8E00'}}>
                   {cartList.length}<span className="visually-hidden">unread messages</span>
                 </span>
+                : ""
+                }
               </Link>
             </div>
             {isAuth ? (
