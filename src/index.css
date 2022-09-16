@@ -1,0 +1,20 @@
+button.btn  {
+    background-color: #ff9b00;
+    border:#ff9b00;
+}
+
+.btn:hover {
+    background-color: #ED8E00 !important;
+    border: #ED8E00;
+}
+
+a {
+    color: #1CA599;
+}
+a:hover {
+    color: #006D77;
+}
+
+.about-icon {
+    color: #1CA599;
+}

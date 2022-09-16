@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 2em;
+    background-image: linear-gradient(to left, rgba(0,109,119, .9), rgba(0,109,119, .9)), 
+    url(https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eee;
+    text-decoration: none;
+  }
+
+a {
+    color: #1CA599;
+    /* color: #006D77 */
+}
+
+.icon {
+  color: #eee;
+}
