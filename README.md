@@ -23,8 +23,6 @@ EduSis is online learning platform that offers anyone, anywhere access to online
 
 <br />
 
----
-
 ## About
 EduSis - Online Educational Website project was developed with React.js as a graduation project of Kodluyoruz Front-End Bootcamp. 
 
