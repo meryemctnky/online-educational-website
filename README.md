@@ -11,15 +11,6 @@ EduSis is online learning platform that offers anyone, anywhere access to online
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ab9324be-b702-4196-aac5-a8afc9dc9de8/deploy-status)](https://app.netlify.com/sites/clinquant-youtiao-4353fa/deploys)
 
 
-## Contents
-
-- [About](#about)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Structure](#structure)
-- [Screenshots](#screenshots)
-
 
 <br />
 
