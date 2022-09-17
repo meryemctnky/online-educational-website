@@ -18,9 +18,6 @@ EduSis is online learning platform that offers anyone, anywhere access to online
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
 
 
 
@@ -70,4 +67,4 @@ Open http://localhost:3000 with your browser to see the result.
 
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License
