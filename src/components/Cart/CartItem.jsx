@@ -7,8 +7,6 @@ import { useCart } from "../../contexts/use-Cart";
 const CartItem = ({ item, i }) => {
   const { removeItemToCart } = useCart();
 
-  console.log("i", i)
-
   return (
     <div>
       <Row className="my-2 border py-2 rounded">

@@ -1,11 +1,11 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Formik } from "formik";
 import { Form, Button, Row, Col, Container } from "react-bootstrap";
 import { signinSchema } from "../../constants/yup";
 import { loginService } from "../../services/auth";
 import { useAuth } from "../../contexts/use-Auth";
+import { toast } from 'react-toastify';
 
 function Signin() {
   const [error, setError] = useState("");
@@ -21,9 +21,9 @@ function Signin() {
         if (response.status === 200 && response.data.length > 0) {
           setError("");
           setAuth(response.data);
-          alert("You have successfully signed in");
+          toast.success("You have successfully signed in");
         } else {
-          alert("Sorry, an error occurred");
+          toast.error("Sorry, an error occurred");
         }
       }}
       initialValues={{

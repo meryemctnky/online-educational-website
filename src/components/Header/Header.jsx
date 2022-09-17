@@ -20,11 +20,6 @@ const navLinks = [
     path: "/courses",
     display: "Courses",
   },
-
-  {
-    path: "/educators",
-    display: "Educators",
-  },
 ];
 
 function Header(props) {

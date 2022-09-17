@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 import { Formik } from "formik";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { signupSchema } from "../../constants/yup";
-import image from "../../assets/images/signup.png";
+import image from "../../assets/images/signup.jpg";
 import { registerService } from "../../services/auth";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 
 function Signup() {
+  const navigate = useNavigate();
+
   return (
     <div className="form-wrapper mb-5">
       <Formik
@@ -17,11 +21,12 @@ function Signup() {
           
           if (response.status === 201) {
 
-               alert("Registration successfully completed");
+              toast.success("Registration successfully completed");
               localStorage.setItem('user', JSON.stringify(response.data))
+              navigate("/login")
          
           } else {
-            alert("Sorry, an error occurred");
+            toast.error("Sorry, an error occurred");
           }
         }}
         initialValues={{
@@ -40,8 +45,8 @@ function Signup() {
           errors,
         }) => (
           <Row>
-            <Col className="me-auto mb-2">
-              <img src={image} alt="" />
+            <Col className="me-3 mb-2">
+              <img src={image} alt="" className="signup-img"/>
             </Col>
             <Col className="ms-auto py-3">
               <Form noValidate onSubmit={handleSubmit}>
