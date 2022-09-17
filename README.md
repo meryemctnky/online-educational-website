@@ -6,10 +6,9 @@
 EduSis is online learning platform that offers anyone, anywhere access to online courses.
 
 
-### See Live : [Here](https://clinquant-youtiao-4353fa.netlify.app/)
+### See Live : [Here](https://edusis.netlify.app)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ab9324be-b702-4196-aac5-a8afc9dc9de8/deploy-status)](https://app.netlify.com/sites/clinquant-youtiao-4353fa/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c5838d5-4a6c-4148-830a-e51a264a6d13/deploy-status)](https://app.netlify.com/sites/edusis/deploys)
 
 <br />
 <br />
