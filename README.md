@@ -11,8 +11,17 @@ EduSis is online learning platform that offers anyone, anywhere access to online
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ab9324be-b702-4196-aac5-a8afc9dc9de8/deploy-status)](https://app.netlify.com/sites/clinquant-youtiao-4353fa/deploys)
 
 
-
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 ## About
 EduSis - Online Educational Website project was developed with React.js as a graduation project of Kodluyoruz Front-End Bootcamp. 
