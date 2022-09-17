@@ -21,6 +21,16 @@ EduSis is online learning platform that offers anyone, anywhere access to online
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 ## About
