@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div>
       <Row>
         <Col sm={6} className="d-flex flex-column justify-content-center">
-          <h2>About Us</h2>
+          <h2 className="fw-bolder">About Us</h2>
           <p className="lead">
             Lorem ipsum dolor sit amet consectetur. Tempore autem quod esse
             reiciendis nesciunt quam corporis dignissimos, voluptatibus fuga

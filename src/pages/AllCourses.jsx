@@ -19,7 +19,7 @@ const AllCourses = () => {
 
   return (
     <Container>
-      <h2>All Courses</h2>
+      <h2 className='fw-bolder'>All Courses</h2>
       <Row className=''>
         { courses && courses.map((item, i) => (
           <CourseCard key={i} item={item}/>

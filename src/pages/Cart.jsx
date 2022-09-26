@@ -11,7 +11,7 @@ const Cart = () => {
   
   return (
     <Container>
-      <h2>Shopping Cart</h2>
+      <h2 className="fw-bolder">Shopping Cart</h2>
       <Row>
         {cartList.length > 0 ? (
           cartList.map((item, i) => <CartItem key={i} item={item} i={i} />)

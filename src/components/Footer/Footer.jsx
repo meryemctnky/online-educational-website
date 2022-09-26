@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={3} md={4} sm={6}>
-            <h5 className="fw-bold">Explore</h5>
+            <h5 className="fw-bolder">Explore</h5>
             <ul className="list-unstyled">
               {footerQuickLinks.map((item, index) => (
                 <li key={index}>
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col lg={3} md={4} sm={6}>
-            <h5 className="fw-bold">Community</h5>
+            <h5 className="fw-bolder">Community</h5>
             <ul className="list-unstyled">
               {footerCommunityLinks.map((item, index) => (
                 <li key={index + 50}>
@@ -63,7 +63,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col lg={3} md={4} sm={6}>
-            <h5 className="fw-bold">Contact</h5>
+            <h5 className="fw-bolder">Contact</h5>
             <ul className="list-unstyled">
               <li>+123-456-7890</li>
               <li>+111-222-3333</li>

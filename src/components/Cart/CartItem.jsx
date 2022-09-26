@@ -21,7 +21,7 @@ const CartItem = ({ item, i }) => {
               />
             </Col>
             <Col sm={9} className="d-flex flex-column justify-content-center">
-              <div className="fw-bold p-2">{item.courseName}</div>
+              <div className="fw-bolder p-2">{item.courseName}</div>
             </Col>
           </Row>
         </Col>

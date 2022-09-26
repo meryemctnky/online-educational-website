@@ -43,7 +43,7 @@ function Signin() {
           <Row>
             <Col className="ms-auto py-3 d-flex flex-column align-items-center">
               <Form noValidate onSubmit={handleSubmit} style={{width: 400}}>
-                <h2 className="fw-bold mb-3">Sign In</h2>
+                <h2 className="fw-bolder mb-3">Sign In</h2>
                 <Form.Group className="mb-3" controlId="validationFormikEmail">
                   <Form.Label>Email</Form.Label>
                   <Form.Control

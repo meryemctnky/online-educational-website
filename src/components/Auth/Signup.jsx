@@ -50,7 +50,7 @@ function Signup() {
             </Col>
             <Col className="ms-auto py-3">
               <Form noValidate onSubmit={handleSubmit}>
-                <h2 className="fw-bold mb-3">Sign Up</h2>
+                <h2 className="fw-bolder mb-3">Sign Up</h2>
                 <Form.Group className="mb-3" controlId="validationFormik01">
                   <Form.Label>Name</Form.Label>
                   <Form.Control

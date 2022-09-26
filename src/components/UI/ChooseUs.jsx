@@ -15,7 +15,7 @@ const ChooseUs = () => {
         <Row className="my-4">
           <Col lg="6" md="6">
             <div className="choose-content py-5">
-              <h2 className="fw-bold">Why Choose Us</h2>
+              <h2 className="fw-bolder">Why Choose Us</h2>
               <p className="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus, aut exercitationem perspiciatis quibusdam, magni
