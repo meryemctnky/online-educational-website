@@ -41,8 +41,8 @@ function Signin() {
       }) => (
         <Container>
           <Row>
-            <Col className="ms-auto py-3">
-              <Form noValidate onSubmit={handleSubmit}>
+            <Col className="ms-auto py-3 d-flex flex-column align-items-center">
+              <Form noValidate onSubmit={handleSubmit} style={{width: 400}}>
                 <h2 className="fw-bold mb-3">Sign In</h2>
                 <Form.Group className="mb-3" controlId="validationFormikEmail">
                   <Form.Label>Email</Form.Label>
@@ -80,15 +80,17 @@ function Signin() {
                     {errors.password}
                   </Form.Control.Feedback>
                 </Form.Group>
-
+                
+                <Form.Group className="d-flex flex-column">
                 <Button className="mb-3" type="submit">
                   Login
                 </Button>
                 {error && <div className="text-danger">{error}</div>}
-              </Form>
-              <Form.Text className="my-4">
+              <Form.Text className="my-2">
                 Don't have an account? <Link to="/register">Sign up</Link>
               </Form.Text>
+                </Form.Group>
+              </Form>
             </Col>
           </Row>
         </Container>
